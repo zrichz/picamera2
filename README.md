@@ -34,7 +34,7 @@ Should you want to rebuild libcamera from source, please follow [these instructi
 
 This README file and a set of numerous small examples can be found in the [GitHub repository](https://github.com/raspberrypi/picamera2). Moreover you can run the GitHub version of _Picamera2_ by cloning it and adding `/home/pi/picamera2` to your PYTHONPATH variable (assuming you cloned it to `/home/pi`).
 
-#### Picamera2 on Pi 3 and ealier devices
+#### Picamera2 on Pi 3 and earlier devices
 
 On Pi 3 and earlier devices it will be necessary to enable _Glamor_ if you want to use the preview window implementations that run under X-Windows. To enable Glamor, run `sudo raspi-config`, choose _Advanced Options_ and enable _Glamor_ graphic accleration.
 
